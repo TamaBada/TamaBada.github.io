@@ -6,13 +6,13 @@ let cellSize = 6;
 let word = "WAVE";
 
 async function setup() {
-  createCanvas(800, 400);
+  createCanvas(1000, 600);
   noStroke();
   textAlign(CENTER, CENTER);
   textFont("Georgia");
 
   img = await loadImage(imgPath);
-  img.resize(800, 400);
+  img.resize(1000, 600);
   //noLoop();
 }
 
