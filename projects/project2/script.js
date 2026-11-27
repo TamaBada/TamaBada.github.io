@@ -110,6 +110,8 @@ function draw() {
 
       hoveredRow = i;
 
+       dotSize = dotSize * 1.2;
+
       stroke("#282522");
       strokeWeight(2);
 
